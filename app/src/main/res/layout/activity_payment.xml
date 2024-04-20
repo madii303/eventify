@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/gradient_background"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Details"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/edit_text_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="example"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Contact"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/edit_text_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="+923312345678"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Email"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="example@email.com"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Card Number"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/edit_text_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="xxxx-xxxx-xxxx-xxxx"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="CVV"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/edit_text_cvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="000"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Payment:"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="15,200/-"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:id="@+id/btn_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   BOOK   "
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#560319"/>
+
+
+</LinearLayout>
